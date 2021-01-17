@@ -1,0 +1,50 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+  padding: 50px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+input{
+  font-size: 1.2rem;
+  border-radius: 10px;
+  width: 100%;
+}
+
+input:focus{
+  border: 2px solid rgb(240, 210, 45);
+  border-radius: 10px;
+  color: grey;
+  outline: none;
+}
+
+.card{
+  width: 30%;
+  height: 100%;
+  align-content: center;
+  border: 3px solid rgb(248, 99, 99);
+  border-radius: 6px;
+  margin-bottom: 6px;
+  margin-right: 6px;
+  overflow: hidden;
+}
+
+.card p{
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: blue;
+}
+
+.card img{
+  width: 200px;
+  height: 300px;
+  margin-left: 25%;
+}
